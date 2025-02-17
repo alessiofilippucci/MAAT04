@@ -18,6 +18,22 @@
 
             Console.WriteLine($"The area of the rectangle is : {area}");
             Console.WriteLine($"The perimeter of the rectangle is : {perimeter}");
+
+            for (int i = 0; i < height; i++)
+            {
+                for (int j = 0; j < width; j++)
+                {
+                    if (j == 0 || i == 0 || i == height - 1 || j == width - 1)
+                    {
+                        Console.Write("*");
+                    }
+                    else
+                    {
+                        Console.Write(" ");
+                    }
+                }
+                Console.WriteLine("");
+            }
         }
     }
 }
