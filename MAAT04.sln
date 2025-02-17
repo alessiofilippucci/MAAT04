@@ -50,6 +50,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AreaPerimeter", "AreaPerime
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SortList", "SortList\SortList.csproj", "{E6A70067-46F6-42A1-B5E7-6A8AB0FEAD9C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LogReader", "LogReader\LogReader.csproj", "{0F71F749-C02E-40B8-A3A3-D9AA28B1DDF3}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -116,6 +118,10 @@ Global
 		{E6A70067-46F6-42A1-B5E7-6A8AB0FEAD9C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E6A70067-46F6-42A1-B5E7-6A8AB0FEAD9C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E6A70067-46F6-42A1-B5E7-6A8AB0FEAD9C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0F71F749-C02E-40B8-A3A3-D9AA28B1DDF3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0F71F749-C02E-40B8-A3A3-D9AA28B1DDF3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0F71F749-C02E-40B8-A3A3-D9AA28B1DDF3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0F71F749-C02E-40B8-A3A3-D9AA28B1DDF3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -136,6 +142,7 @@ Global
 		{FBF32E48-B8D8-4FF2-AF6F-3C910A560442} = {FABD2C39-2006-48B7-B24E-FCC04FCEFAD1}
 		{19EE89F9-FFE7-4906-9427-4D32EC5B118D} = {F4745AC9-E49C-4242-A9BF-40AB1A5DE192}
 		{E6A70067-46F6-42A1-B5E7-6A8AB0FEAD9C} = {F4745AC9-E49C-4242-A9BF-40AB1A5DE192}
+		{0F71F749-C02E-40B8-A3A3-D9AA28B1DDF3} = {F4745AC9-E49C-4242-A9BF-40AB1A5DE192}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {69EDD2E0-1871-4AD2-8E66-C8BC997194B4}
