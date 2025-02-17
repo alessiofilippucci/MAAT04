@@ -44,6 +44,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "_data", "_data", "{02EA681E
 		..\_MAAT04\LogAnalyzer\logs\logs.txt = ..\_MAAT04\LogAnalyzer\logs\logs.txt
 	EndProjectSection
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Exercise", "Exercise", "{F4745AC9-E49C-4242-A9BF-40AB1A5DE192}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AreaPerimeter", "AreaPerimeter\AreaPerimeter.csproj", "{19EE89F9-FFE7-4906-9427-4D32EC5B118D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -102,6 +106,10 @@ Global
 		{FBF32E48-B8D8-4FF2-AF6F-3C910A560442}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FBF32E48-B8D8-4FF2-AF6F-3C910A560442}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FBF32E48-B8D8-4FF2-AF6F-3C910A560442}.Release|Any CPU.Build.0 = Release|Any CPU
+		{19EE89F9-FFE7-4906-9427-4D32EC5B118D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{19EE89F9-FFE7-4906-9427-4D32EC5B118D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{19EE89F9-FFE7-4906-9427-4D32EC5B118D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{19EE89F9-FFE7-4906-9427-4D32EC5B118D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -120,6 +128,7 @@ Global
 		{DC502691-8149-44D2-AD55-8C2272305834} = {C6AB7FC7-9A9E-4AB5-A78C-1EE6582630BE}
 		{5FF7A3A3-28CB-4CA9-80E9-0D4187F2451C} = {FABD2C39-2006-48B7-B24E-FCC04FCEFAD1}
 		{FBF32E48-B8D8-4FF2-AF6F-3C910A560442} = {FABD2C39-2006-48B7-B24E-FCC04FCEFAD1}
+		{19EE89F9-FFE7-4906-9427-4D32EC5B118D} = {F4745AC9-E49C-4242-A9BF-40AB1A5DE192}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {69EDD2E0-1871-4AD2-8E66-C8BC997194B4}
