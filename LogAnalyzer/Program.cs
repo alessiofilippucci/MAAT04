@@ -1,4 +1,6 @@
-﻿namespace LogAnalyzer
+﻿using System.Collections.Immutable;
+
+namespace LogAnalyzer
 {
     internal class Program
     {
@@ -15,7 +17,7 @@
             var logErrors = new List<string>();
             var logUnknown = new List<string>();
 
-            foreach (var logLine in logLines)
+            foreach (var logLine in logLines.OrderDescending())
             {
                 var logParts = logLine.Split(',');
 
@@ -23,26 +25,28 @@
                 var logType = logParts[1];
                 var logMsg = logParts[2];
 
+                var logOutput = $"{logData}: {logMsg}";
+
                 switch (logType)
                 {
                     case "Error":
                         {
-                            logErrors.Add(logLine);
+                            logErrors.Add(logOutput);
                             break;
                         }
                     case "Warning":
                         {
-                            logWarnings.Add(logLine);
+                            logWarnings.Add(logOutput);
                             break;
                         }
                     case "Info":
                         {
-                            logInfos.Add(logLine);
+                            logInfos.Add(logOutput);
                             break;
                         }
                     default:
                         {
-                            logUnknown.Add(logLine);
+                            logUnknown.Add(logOutput);
                             break;
                         }
                 }
