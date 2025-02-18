@@ -4,7 +4,7 @@
     {
         static void Main(string[] args)
         {
-            var logFolder = "D:\\OneDrive\\LEZIONI\\ITS\\MAAT04\\projects\\MAAT04\\LogAnalyzer\\logs\\";
+            var logFolder = "D:\\OneDrive\\LEZIONI\\ITS\\MAAT04\\projects\\MAAT04\\LogAnalyzer\\data\\";
             
             var logFile = $"{logFolder}\\logs.txt";
             
