@@ -20,10 +20,10 @@
                 var logParts = logLine.Split(',');
 
                 var logData = logParts[0];
-                var logError = logParts[1];
+                var logType = logParts[1];
                 var logMsg = logParts[2];
 
-                switch (logError)
+                switch (logType)
                 {
                     case "Error":
                         {
