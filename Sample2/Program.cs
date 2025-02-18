@@ -6,19 +6,22 @@
         {
             Console.WriteLine("Hello, World!");
 
-            string _firstName = GetFirstName();
-            string _lastName = GetLastName();
+            string nome = GetFirstName();
+            string cognome = GetLastName();
 
-            PrintFullName(_firstName, _lastName);
+            PrintFullName(nome, cognome);
         }
 
         static string GetFirstName()
         {
-
+            Console.WriteLine("Inserisci il tuo nome:");
+            return Console.ReadLine();
         }
+
         static string GetLastName()
         {
-
+            Console.WriteLine("Inserisci il tuo cognome:");
+            return Console.ReadLine();
         }
 
         static void PrintFullName(string firstName, string lastName)
