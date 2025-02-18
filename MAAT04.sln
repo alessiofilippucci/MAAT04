@@ -54,6 +54,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FileReader", "FileReader\Fi
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LogAnalyzer", "LogAnalyzer\LogAnalyzer.csproj", "{95E536A5-BE25-C3B8-E6BF-60AE722F1AFC}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sample2", "Sample2\Sample2.csproj", "{AD9A3B63-DDE4-46B7-8A17-B59A26041847}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -128,6 +130,10 @@ Global
 		{95E536A5-BE25-C3B8-E6BF-60AE722F1AFC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{95E536A5-BE25-C3B8-E6BF-60AE722F1AFC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{95E536A5-BE25-C3B8-E6BF-60AE722F1AFC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AD9A3B63-DDE4-46B7-8A17-B59A26041847}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AD9A3B63-DDE4-46B7-8A17-B59A26041847}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AD9A3B63-DDE4-46B7-8A17-B59A26041847}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AD9A3B63-DDE4-46B7-8A17-B59A26041847}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -150,6 +156,7 @@ Global
 		{E6A70067-46F6-42A1-B5E7-6A8AB0FEAD9C} = {F4745AC9-E49C-4242-A9BF-40AB1A5DE192}
 		{0F71F749-C02E-40B8-A3A3-D9AA28B1DDF3} = {F4745AC9-E49C-4242-A9BF-40AB1A5DE192}
 		{95E536A5-BE25-C3B8-E6BF-60AE722F1AFC} = {F4745AC9-E49C-4242-A9BF-40AB1A5DE192}
+		{AD9A3B63-DDE4-46B7-8A17-B59A26041847} = {3A8345C2-68BA-49CC-9D70-6C7132A1BA9B}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {69EDD2E0-1871-4AD2-8E66-C8BC997194B4}
