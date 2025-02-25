@@ -1,4 +1,6 @@
-﻿namespace AppMAAT04
+﻿using AppMAAT04.utils;
+
+namespace AppMAAT04
 {
     public class Calculator
     {
@@ -6,36 +8,26 @@
 
         int num1;
         int num2;
-
-        string op;
+        string op = "";
 
         public void Start()
         {
-            num1 = GetNumber();
-            num2 = GetNumber();
+            num1 = NumberHelper.GetNumber();
+            num2 = NumberHelper.GetNumber();
 
             GetOperator();
         }
 
-        private int GetNumber()
-        {
-            Console.WriteLine("Inserisci un numero intero");
-            if (!int.TryParse(Console.ReadLine(), out int num))
-            {
-                Console.WriteLine("Numero non valido!");
-                return GetNumber();
-            }
-            return num;
-        }
 
         void GetOperator()
         {
             op = "";
 
+            ConsoleHelper.LogInfo(string.Format("Scegli tra {0}", string.Join(",", allowedOp)));
+
             while (!allowedOp.Contains(op))
             {
-                Console.WriteLine("Scegli tra {0}", string.Join(",", allowedOp));
-                op = Console.ReadLine();
+                op = ConsoleHelper.GetValue();
             }
         }
     }
